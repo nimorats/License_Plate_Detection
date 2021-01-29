@@ -18,7 +18,7 @@ for root, dirs, files in os.walk("media/"):
 
 #OCR
 #setting tesseract executable path
-pytesseract.pytesseract.tesseract_cmd = r'C:/Users/user/Desktop/pythonpro/llt/Tesseract-OCR/tesseract'
+pytesseract.pytesseract.tesseract_cmd = r'' #add you executable tesseract file here. the .exe filepath has to be added here/
 
 for root, dirs, files in os.walk("ocr/"):  
     for filename in files:
